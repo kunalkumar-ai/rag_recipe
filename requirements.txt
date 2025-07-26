@@ -1,1 +1,26 @@
 # Python dependencies
+# Core NLP and RAG Frameworks
+langchain>=0.2.0 # For building RAG pipelines, connecting LLMs to data
+transformers>=4.0.0 # For using pre-trained models, e.g., for embeddings
+sentence-transformers>=2.2.0 # For easy access to sentence embedding models
+faiss-cpu>=1.7.0 # A simple, local vector database for prototyping
+pydantic>=2.0.0 # Often a dependency for LLM frameworks like LangChain
+
+# Data Handling and Preprocessing
+pandas>=2.0.0 # For structured data manipulation (recipes)
+numpy>=1.20.0 # For numerical operations, especially with embeddings
+nltk>=3.8.0 # For text preprocessing (tokenization, stopwords)
+scikit-learn>=1.0.0 # For potential data processing utilities
+
+# Web Framework (for a simple API/UI)
+fastapi>=0.110.0 # A modern, fast web framework for building APIs
+uvicorn>=0.29.0 # ASGI server for running FastAPI applications
+
+# Environment Variables
+python-dotenv>=1.0.0 # For loading environment variables (e.g., API keys) from a .env file
+
+# (Optional) For more advanced vector databases - uncomment if you decide to use them
+# pinecone-client # For Pinecone vector database
+# weaviate-client # For Weaviate vector database
+# pymilvus # For Milvus vector database
+# chromadb # For ChromaDB vector database
