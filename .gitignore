@@ -69,3 +69,5 @@ build/
 *.pyc
 
 *.jsonl
+*.index
+*.faiss
