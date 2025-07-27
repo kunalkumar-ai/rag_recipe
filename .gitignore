@@ -71,3 +71,6 @@ build/
 *.jsonl
 *.index
 *.faiss
+*.csv
+*.pyc
+
