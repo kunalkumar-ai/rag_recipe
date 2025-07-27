@@ -67,3 +67,5 @@ htmlcov/
 .Python
 build/
 *.pyc
+
+*.jsonl
